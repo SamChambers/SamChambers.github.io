@@ -2,41 +2,207 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Sam's quickHUB</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <title>W10Setup</title>
 </head>
 <body>
     
     <!-- Profile picture-->
     <!-- <img src="assets/logo.png" alt="profile picture" class="logo"> -->
 
-    
-    <!-- Login link -->
-    <!-- <a class="login" href="https://www.leagueathletics.com/CPanel/Password.asp?org=ecyfl.org">Login</a></div> -->
-
     <!-- Header text-->
-    <div class="header-text">quickHUB</div>
+    <div class="header-text">
+        <h1>W10Setup</h1>
+        <p>A simple collection of links for various - mostly FOSS (Free and Open Source Software) - Windows programs.</p>
+    </div>
 
     <!-- Links-->
-    <h3>Music</h3>
-    <a href="https://music.youtube.com/playlist?list=PLoyo5VvGZb_ruirC3jJMDGuUGaAwqnZlM" class="links">Omegle Bars</a>
-    <a href="https://music.youtube.com/playlist?list=PLoyo5VvGZb_rlWrqKL3fHOdfxH-AfKfl1" class="links">Real Rap.</a>
-    <a href="https://music.youtube.com/playlist?list=PLoyo5VvGZb_qalfTppYYraKewCaOAxx0k" class="links">Throwbacks</a>
-    <h3>Drive</h3>
-    <a href="https://drive.google.com/drive/folders/10LZlhMzVda-4qSqUwe9b2W-Dq3Vsiv04" class="links">Music Folder</a>
-    <h3>YouTube</h3>
-    <a href="https://www.youtube.com/c/Techlore/videos" class="links">Techlore</a>
-    <a href="https://www.youtube.com/c/GGMelee/videos" class="links">GG Melee</a>
-    <a href="https://www.youtube.com/channel/UC59ZRYCHev_IqjUhremZ8Tg/videos" class="links">Harry Mack</a>
-    <h3>Shows</h3>
-    <a href="https://www.disneyplus.com/series/the-simpsons/3ZoBZ52QHb4x" class="links">The Simpsons</a>
-    <h3>Shows</h3>
-    <a href="https://www.hulu.com/series/brooklyn-nine-nine-daf48b7a-6cd7-4ef6-b639-a4811ec95232" class="links">Brooklyn 99</a>
+    <h2>Essential</h2>
+    <a href="https://www.7-zip.org/download.html" class="links">7-zip</a>
+    <p>FOSS Archive Explorer<br>Compression and Extraction</p>
+    <a href="https://docs.microsoft.com/en-us/windows/powertoys/" class="links">PowerToys</a>
+    <p>NON-FOSS Windows Utility Suite</p>
+    <a href="https://brave.com/download/" class="links">Brave</a>
+    <p>FOSS Chromium-Based Browser</p>
+    <a href="https://geekuninstaller.com/download" class="links">Geek Uninstaller</a>
+    <p>FOSS Uninstaller</p>
+    <a href="https://www.bcuninstaller.com/" class="links">BCUninstaller</a>
+    <p>FOSS Batch Uninstaller</p>
+    <a href="https://www.videolan.org/vlc/download-windows.html" class="links">VLC</a>
+    <p>FOSS Media Player</p>
+    <a href="https://protonvpn.com/" class="links">ProtonVPN</a>
+    <p>Privacy-Respecting VPN<br>Free/Paid<br>FOSS Clients</p>
 
-    <!--- <div class="footer">
+    <h2>PowerUser</h2>
+    <a href="https://www.w10privacy.de/deutsch-start/download/" class="links">W10Privacy</a>
+    <p>FOSS Windows Privacy Options</p>
+    <a href="https://bitwarden.com/download/" class="links">Bitwarden</a>
+    <p>FOSS Password Manager</p>
+    <a href="https://www.veracrypt.fr/code/VeraCrypt/" class="links">VeraCrypt</a>
+    <p>FOSS Disk Encryption</p>
+
+    <h2>Creative</h2>
+    <a href="https://github.com/mltframework/shotcut/releases" class="links">Shotcut</a>
+    <p>FOSS Video Editor</p>
+    <a href="https://www.gimp.org/downloads/" class="links">GIMP</a>
+    <p>FOSS Photoshop-like Image Editor</p>
+    <a href="https://inkscape.org/release" class="links">Inkscape</a>
+    <p>FOSS Image Editor</p>
+    <a href="https://krita.org/en/download/krita-desktop/" class="links">Krita</a>
+    <p>FOSS Drawing Tool</p>
+    <a href="https://github.com/SartoxSoftware/audacium/releases/latest" class="links">Audacium</a>
+    <p>FOSS DAW (Audio Editor)<br>Fork of Audacity</p>
+    <a href="https://www.mp3tag.de/en/download.html" class="links">Mp3tag</a>
+    <p>FOSS Audio Tag Editor</p>
+    <a href="https://www.blackmagicdesign.com/products/davinciresolve/" class="links">DaVinci Resolve</a>
+    <p>NON-FOSS Video Editor</p>
+
+    <h2>Other</h2>
+    <a href="https://signal.org/en/download/" class="links">Signal</a>
+    <p>FOSS Private Messenger<br>End-to-End Encrypted</p>
+    <a href="http://qttabbar.wikidot.com/" class="links">QTTabBar</a>
+    <p>FOSS File Explorer Addon<br>Browser-like Tabs</p>
+    <a href="https://freetubeapp.io/" class="links">FreeTube</a>
+    <p>FOSS YouTube Client</p>
+
+    <div class="footer">
         <h6>Copyright 2021 Sam Chambers</h6>
-    </div> --->
+    </div>
  
 </body>
+
+<style>
+    @font-face {
+        font-family: 'body';
+        font-style: normal;
+        font-weight: normal;
+        src: local('body'), url('assets/Fonts/entsani.woff') format('woff');
+    }
+    @font-face {
+        font-family: 'links';
+        src: url(assets/Fonts/FredokaOne-Regular.ttf);
+    }
+
+    body {
+        background: rgb(63,63,63);
+        background: radial-gradient(circle, rgba(63,63,63,1) 0%, rgba(40,40,40,1) 7%, rgba(27,27,27,1) 22%, rgba(0,0,0,1) 62%); 
+        color: #fff;
+        font-family: 'body';
+        text-align: center;
+        letter-spacing: 2px;
+    }
+
+    img {
+        border-radius: 0%;
+        scale: 100%;
+    }
+
+    h2 {
+        font-size: 24px;
+        padding-top: 18px;
+    }
+
+    p {
+        font-family: monospace;
+        font-size: 12px;
+        padding-bottom: 20px;
+    }
+
+    .logo {
+        display: block;
+        padding-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        height: auto;
+        max-width: 200px;
+    }
+
+    .header-text {
+        padding-top: 20px;
+        line-height: 150%;
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    .login {
+        line-height: 250%;
+        font-size: 20px;
+        text-decoration: none;
+        color: gray;
+        transition: color 200ms; 
+    }
+    .login:hover {
+        color: rgb(255, 255, 255);
+    }
+
+    .links {
+        font-family: 'links';
+        text-align: center;
+        font-size: 20px;
+        font-weight: bolder;
+        margin-top: 18px;
+        padding: 20px;
+        /* border: 1px solid rgb(78, 78, 78);
+        border-width: 2px; */
+        width: 290px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 40px;
+        color: rgb(39, 38, 38);
+        transition: color 1s; 
+        text-decoration: none;
+        background: rgb(96,173,89);
+        background: radial-gradient(circle, rgba(96,173,89,1) 0%, rgba(96,173,89,0.8240429961046919) 65%, rgba(96,173,89,0.22460322019432777) 80%, rgba(96,173,89,0) 95%); 
+    }
+
+    .socials {
+        text-align: center;
+        font-size: 20px;
+        color: rgb(170, 170, 170);
+        transition: color 200ms; 
+        text-decoration: none;
+    }
+
+    .links:hover {
+        color: rgb(255, 255, 255);
+        background: rgba(0, 0, 0, 0);
+        /* background: rgb(96,173,89); */
+        /* background: radial-gradient(circle, rgba(96,173,89,1) 4%, rgba(61, 116, 56, 0.824) 69%, rgba(96,173,89,0.22460322019432777) 75%, rgba(96,173,89,0) 88%);  */
+    }
+
+    .socials:hover {
+        color: rgb(255, 255, 255);
+    }
+
+    .bottom-text {
+        line-height: 10px;
+        padding-bottom: 20px;
+        text-align: center;
+        margin-top: 40px;
+        /* font-weight: bold; */
+    }
+
+    p.bottom-text {
+        font-size: 14px;
+
+    }
+
+    .email {
+        text-decoration: none;
+        font-size: 20px;
+        color: rgb(96, 173, 89);
+        transition: color 200ms; 
+    }
+    .login:hover {
+        color: rgb(255, 255, 255);
+    }
+
+    .footer {
+        text-align: center;
+        padding: 20px;
+    }
+</style>
 
 </html>
